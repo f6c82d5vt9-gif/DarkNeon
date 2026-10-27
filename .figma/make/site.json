@@ -1,0 +1,10 @@
+{
+  "title": "연령대별 1인가구",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
