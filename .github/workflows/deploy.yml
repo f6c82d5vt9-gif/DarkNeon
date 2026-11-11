@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          lfs: true   # 폰트, 달 이미지는 Git LFS 에 있어서 실제 파일을 받아야 한다
 
       # .mise.toml과 동일한 버전 (node 22, pnpm 10.34.3)
       - uses: pnpm/action-setup@v4
